@@ -10,12 +10,13 @@
     <link rel="Stylesheet" href="./assets/style.css" />
 </head>
 <body>
-    <header >
+    <header>
         <nav>
             <ul class="menu">
                 <li class="list-home item" id="about"><a href="#about">About</a></li>
                 <li class="list-home item" id="portfolio"><a href="#work">Work</a></li>
-                <li class="list-home item" id="contacts"><a href="#contacts">Contacts</a></li>
+                <li class="list-home item" id="contacts"><a href="#contact">Contacts</a></li>
+                <li class="list-home item" id="resume"><a href="./assets/download/SIXSMITH, Daniel Resume.pdf">Resume</a></li>
             </ul>
         </nav>
       <h1 id="main-title">DANIEL SIXSMITH</h1>
@@ -23,19 +24,23 @@
 <section class="main-banner">
     <div>
         <h2 id="sub-title">IT'S ABOUT THE FLOW</h2>
+        <div id="img" alt="imge of owner"></div>
     </div>
-</section class="main-side">
-    <aside class="side">
-        <h1>Where to locate me on the net</h1>
-        <address>
-            <a href="https://www.linkedin.com/in/daniel-sixsmith-9b7a32184/">Linkedin</a>
-            <a href="https://github.com/SiddySixsmith">GitHub</a>
-            <a href="https://waustralia.bootcampcontent.com/SiddySixsmith">GitLab</a>
-            <a href="https://open.spotify.com/user/dannyboy4839?si=b8d1742888eb406c">Spotify</a>
-     </address>
-    </aside>
-<section>
-    <h2>About Me</h2>
+    <main class="page-container">
+</section>
+    <section class="page-extra" id="locate">
+        <h1>WHERE TO LOCATE ME</h1>
+        <div id="main-top">
+        <address class="links-top">
+            <a href="https://www.linkedin.com/in/daniel-sixsmith-9b7a32184/" class="item-top">Linkedin</a>
+            <a href="https://github.com/SiddySixsmith" class="item-top">GitHub</a>
+            <a href="https://waustralia.bootcampcontent.com/SiddySixsmith" class="item-top">GitLab</a>
+            <a href="https://open.spotify.com/user/dannyboy4839?si=b8d1742888eb406c" class="item-top">Spotify</a>
+        </address>
+    </div>
+    </section>
+<section class="page-section" id="about">
+    <h2 >About Me</h2>
     <div>
         <p>
             For the past 4 years i have spend my time in the construction industry, applying my physical strengths to concrete and stone finshing.
@@ -51,40 +56,51 @@
         </p>
     </div>
 </section>
-<section>
+<section class="page-section" id="work">
     <h2>Work</h2>
-    <div>
-        <a href="#">
+    <div class="flex-container">
+        <a href="#" class="tile" id="heorion">
+            <div alt="new image">
             <h3>Heorion Code Fix</h3>
             <span>html/CSS</span>
+        </div>
         </a>
-        <a href="#">
+        <a href="#" class="tile" id="personal">
+            <div alt="new image">
             <h3>Personal website Portfolio</h3>
             <span>html/CSS</span>
+        </div>
         </a>
-        <a href="#">
+        <a href="#" class="tile" id="programmed">
+            <div alt="new image">
             <h3>Programmed</h3>
             <span>html/CSS</span>
+        </div>
         </a>
-        <a href="#">
+        <a href="#" class="tile" id="info">
+            <div alt="new image">
             <h3>More info</h3>
             <span>html/CSS</span>
+        </div>
         </a>
-        <a href="#">
+        <a href="#" class="tile" id="more-info">
+        <div alt="new image">
             <h3>Heaps more info</h3>
             <span>html/CSS</span>
+        </div>
         </a>
     </div>
 </section>
-<section>
+<section class="page-section" id="contact">
     <h2>Contact Me</h2>
-    <div>
-        <address>
-            <a href="tel:+61435251774">M: 0435251774</a>
-            <a href="mailto:dancore99@outlook.com">dancore99@outlook.com</a>
+    <div class="main-bottom">
+        <address class="links-bottom">
+            <a href="tel:+61435251774" class="item-bottom">M: 0435251774</a>
+            <a href="mailto:dancore99@outlook.com" class="item-bottom">dancore99@outlook.com</a>
         </address>
     </div>
 </section>
+</main>
 </body>
 <footer>
     <p>Proudly Created By Daniel Sixsmith</p>

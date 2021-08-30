@@ -8,6 +8,19 @@
     box-sizing: border-box;
     list-style-type: none;
 }
+#img {
+    background-image: url(./images/Sam_Dan_EngagementParty-006.jpg);
+        display: block;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 25px;
+        margin-left: 25px;
+        transition: all 0.25s ease-in;
+}
 
 nav {
     color: white;
@@ -59,7 +72,6 @@ header{
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 50px;
-    border-radius: 15px;
 }
 .main-banner {
     /* reference https://unsplash.com/s/photos/grey */
@@ -81,9 +93,207 @@ header{
     top: 30%;
     right: 0;
     font-size: 250%;
-    border-radius: 15px;
 }
 body{
-margin: -1px;
+margin: 0px;
 }
+    .page-container {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .page-section {
+        margin: 25px 25px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        border-bottom: 4px solid var(--secondary);
+      }
+
+      .page-section > h2 {
+        flex: 0 0 20%;
+        text-align: right;
+        padding-right: 15px;
+        border-right: 5px solid var(--secondary);
+        font-size: 300%;
+        line-height: 1;
+        justify-content: center;
+      }
+
+      .page-section > div {
+        flex: 0 0 77%;
+      }
+
+      .page-section p {
+        margin-bottom: 20px;
+      }
+
+      .links-top{
+          display: flex;
+          justify-content: space-evenly;
+          color: var(--primary);
+      }
+       .page-extra >h1 {
+          display: flex;
+          justify-content: center;
+          color: var(--secondary);
+          font-size: 200%;
+      }
+      .item-top {
+          color: var(--primary);
+          font-size: 150%;
+          text-decoration: none;
+          border-bottom: 2px solid var(--secondary);
+      }
+      .tile span{
+          display: flex;
+          justify-content: space-evenly;
+          flex: 1 0 400px;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+      .tile {
+        border: 5px solid var(--secondary);
+        color: var(--primary);
+        min-height: 150px;
+        max-height: 150px;
+        flex-basis: calc(50% - 1em);
+        display: flex;
+        align-items: flex-end;
+        padding: 0 0 20px 0;
+        margin: 0.5em;
+        text-decoration: none;
+        background-blend-mode: soft-light;
+        background-size: 150%;
+        transition: all 0.5s;
+        font-size: 0.9rem;
+      }
+      .tile:first-child {
+        min-height: 400px;
+        flex-basis: 100%;
+    }
     
+    .tile:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+      color: var(--back);
+    }
+    
+    .tile div {
+      background-color: var(--secondary);
+      padding: 8px 10px;
+    }
+    
+    .tile h3 {
+      font-size: 1.6rem;
+    }
+   
+    #heorion {
+        background-image: url(./images/brad-starkey-pVyaUGCuUU4-unsplash.jpg);
+        object-fit: fill;
+    }
+
+    #personal {
+        background-image: url(./images/mathias-p-r-reding-ST9896GQxsw-unsplash.jpg);
+       object-fit: fill;
+    }
+
+    #programmed {
+        background-image: url(./images/mohit-kumar-WANZ8mck56o-unsplash.jpg);
+        object-fit: fill;
+    }
+
+    #info {
+        background-image: url(./images/shubham-dhage-YnVIBUOTZXw-unsplash.jpg);
+        object-fit: fill;
+    }
+
+    #more-info {
+        background-image: url(./images/spirit-notes-JVs1pY6DzZs-unsplash.jpg);
+        object-fit: fill;
+    }
+    
+    .links-bottom{
+        display: flex;
+        justify-content: space-evenly;
+        color: var(--primary);
+    }
+     #contact >h1 {
+        display: flex;
+        justify-content: center;
+        color: var(--secondary);
+        font-size: 200%;
+    }
+    .item-bottom {
+        color: var(--primary);
+        font-size: 150%;
+        text-decoration: none;
+        border-bottom: 2px solid var(--secondary);
+        margin-top: 60px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        .tile,
+        .tile:first-child {
+          flex-basis: 100%;
+        }
+      
+        .tile:first-child {
+          min-height: 150px;
+        }
+      
+        .sub-title {
+          justify-content: center;
+          text-align: center;
+        }
+      
+        .contact address {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+      @media screen and (max-width: 980px) {
+        header {
+          padding: 0 0 10px 0;
+          justify-content: center;
+          text-align: center;
+        }
+      
+        header h1 {
+          width: 100%;
+          padding: 5px;
+          margin-bottom: 10px;
+          font-size: 10vw;
+        }
+      
+        header nav {
+            display: flex;
+          justify-content: center;
+        }
+      
+        .page-section > h2,
+        .page-section > div {
+          flex: 0 0 100%;
+        }
+      
+        .page-section > h2 {
+          border-right: none;
+          border-bottom: 4px solid var(--primary);
+          margin-bottom: 20px;
+          padding-bottom: 10px;
+          text-align: left;
+          font-size: 7vw;
+        }
+      }
