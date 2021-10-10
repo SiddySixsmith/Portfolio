@@ -1,12 +1,4 @@
 <div id="top"></div>
-
-[![Forks][forks-shield]][https://github.com/SiddySixsmith/Portfolio/network/members]
-[![Stargazers][stars-shield]][https://github.com/SiddySixsmith/Portfolio/stargazers]
-[![Issues][issues-shield]][https://github.com/SiddySixsmith/Portfolio/issues]
-[![LinkedIn][linkedin-shield]][www.linkedin.com/in/Daniel-Sixsmith]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
