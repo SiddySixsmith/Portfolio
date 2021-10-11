@@ -14,7 +14,7 @@
     <a href="https://github.com/SiddySixsmith/Portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/SiddySixsmith/Portfolio">View Demo</a>
+    <a href="https://siddysixsmith.github.io/Portfolio/">View Demo</a>
     ·
     <a href="https://github.com/SiddySixsmith/Portfolio/issues">Report Bug</a>
     ·
