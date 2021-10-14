@@ -3,6 +3,9 @@ var weatherlEl = document.getElementById("weather-dash");
 var workEl = document.getElementById("work-day");
 var quizEl = document.getElementById("coding-quiz");
 var passwordEl = document.getElementById("password");
+var userInput = document.getElementById("user-input");
+let searchBtn = document.getElementById("search-button");
+
 
 gameDealEl.addEventListener("click", function(){
     window.open('https://siddysixsmith.github.io/Game-Deal-Compare/', '_blank');
